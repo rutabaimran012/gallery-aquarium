@@ -1,0 +1,118 @@
+body{
+    color: #fff;
+    background: #0274be;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 35px 12px 24px;
+    align-items: center;
+}
+.nav-links{
+    padding: 0 18px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-family: Oswald sans-serif;
+}
+.nav-links:hover{
+    opacity: 90%;
+}
+.header-heading-one{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 155px;
+    margin-left: -265px;
+}
+.header-heading-two{
+    font-size: 8rem;
+    font-weight: 400;
+    font-family: 'Six Caps',sans-serif;
+    text-align: center;
+    margin-top: -13px;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+.header-headings{
+    text-align: right;
+    margin: 117px -135px 120px 168px;
+}
+.header-heading-three{
+    font-family: 'Six Caps',sans-serif;
+    font-size: 18px;
+}
+.header-heading-four{
+    font-family: 'Six Caps',sans-serif;
+    font-size: 40px;
+}
+.section-one-heading-one{
+    font-size: 8rem;
+    font-weight: 400;
+    font-family: 'Six Caps',sans-serif;
+}
+.daily{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+.section-one-heading-two{
+    font-family: 'Six Caps',sans-serif;
+    font-size: 23px;
+    margin-top: 354px;
+    width: 50%;
+    margin-right: -331px;
+}
+.time{
+    display: flex;
+    flex-direction: column;
+}
+.time-one{
+    display: flex
+}
+.VR{
+    display: flex;
+}
+.virtual-guided-one{
+    padding: 100px 50px;
+    background-color: #00234d;
+}
+.virtual-guided-two{
+    text-align: center;
+}
+.section-two-heading{
+    font-size: 35px;
+}
+.section-two-paragraph{
+    color: #808285;
+    font-size: 18px;
+    font-weight: 400;
+}
+.section-two-button{
+    cursor: pointer;
+    border: 2px solid rgba(255, 255, 255);
+    font-size: 15px;
+    letter-spacing: 2px;
+    line-height:15px;
+    color: rgba(255, 255, 255);
+    padding: 15px 30px;
+    background-color: #00234d;
+}
+.section-three-button{
+    cursor: pointer;
+    border: 2px solid rgba(255, 255, 255);
+    font-size: 15px;
+    letter-spacing: 2px;
+    line-height:15px;
+    color: rgba(255, 255, 255);
+    padding: 15px 30px;
+    background-color: #00234d;
+}
+.animals{
+    text-align: center;
+}
+.sealion-jellyfish-mantaroy{
+    display: flex;
+    justify-content: space-around;
+}
