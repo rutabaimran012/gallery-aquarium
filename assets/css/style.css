@@ -1,12 +1,16 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
 body{
     color: #fff;
-    background: #0274be;
 }
 nav{
     display: flex;
     justify-content: space-between;
     padding: 12px 35px 12px 24px;
     align-items: center;
+    background-color: #0274be;
 }
 .nav-links{
     padding: 0 18px;
@@ -34,6 +38,7 @@ nav{
 header{
     display: flex;
     justify-content: center;
+    background-color: #0274be;
 }
 .header-headings{
     text-align: right;
@@ -73,6 +78,7 @@ header{
 }
 .VR{
     display: flex;
+    background-color: #0274be;
 }
 .virtual-guided-one{
     padding: 100px 50px;
@@ -142,6 +148,7 @@ header{
 .div-4{
     display: flex;
     justify-content: center;
+    background-color: #0274be;
 }
 .section-four-heading{
     font-family: 'Six Caps',sans-serif;
@@ -149,4 +156,53 @@ header{
 }
 .couple-image{
     margin: 150px 100px 0 0;
+}
+.div-5{
+    display: flex;
+    justify-content: center;
+   
+    background-color: #00234d;
+}
+.penguin-image{
+    width: 570px;
+    height: 586px;
+}
+.section-five{
+    padding: 50px;
+    background-color: #00234D;
+    width: 570px;
+    height: 487px;
+    margin-top: 24px;
+}
+.shark{
+    margin: 0;
+    padding: 0 500px;
+    background-color: #00234d;
+}
+footer{
+    padding: 125px 0;
+ 
+    text-align: center;
+    background-color: #00234D;
+}
+.footer-icons{
+    width: 22px;
+    height: 22px;
+    padding: 12px;
+    margin-right: 10px;
+    background-color: #02709C;
+    border-radius: 25px;
+}
+.footer-paragraph{
+    margin: 20px 0 10px 0;
+}
+.footer-icons:hover{
+    background-color: white;
+}
+section{
+    background-color: #0274be;
+}
+.nav-image{
+    margin-top: 5px;
+    margin-left: 10px;
 }
