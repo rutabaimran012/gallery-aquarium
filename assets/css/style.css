@@ -24,9 +24,8 @@ nav{
 }
 .header-heading-one{
     font-size: 18px;
-    text-align: center;
     margin-top: 155px;
-    margin-left: -265px;
+    padding: 10px 166px 10px 65px;
 }
 .header-heading-two{
     font-size: 8rem;
@@ -34,6 +33,8 @@ nav{
     font-family: 'Six Caps',sans-serif;
     text-align: center;
     margin-top: -13px;
+    letter-spacing: 10px;
+    line-height: 1;
 }
 header{
     display: flex;
@@ -47,27 +48,32 @@ header{
 .header-heading-three{
     font-family: 'Six Caps',sans-serif;
     font-size: 18px;
+    margin: 48px 48px 8px 0;
 }
 .header-heading-four{
     font-family: 'Six Caps',sans-serif;
     font-size: 40px;
+    margin-right: 45px;
 }
 .section-one-heading-one{
-    font-size: 8rem;
+    font-size: 6rem;
     font-weight: 400;
     font-family: 'Six Caps',sans-serif;
+    letter-spacing: 13px;
+    line-height: 1;
 }
 .daily{
     display: flex;
     justify-content: space-between;
-    padding: 50px;
+    padding: 100px;
+    border-bottom: 2px solid #fff;
 }
 .section-one-heading-two{
     font-family: 'Six Caps',sans-serif;
     font-size: 23px;
-    margin-top: 354px;
+    margin-top: 158px;
     width: 50%;
-    margin-right: -331px;
+    text-align: right;
 }
 .time{
     display: flex;
@@ -78,42 +84,47 @@ header{
 }
 .VR{
     display: flex;
+    justify-content: center;
     background-color: #0274be;
+    padding: 100px;
 }
 .virtual-guided-one{
     padding: 100px 50px;
     background-color: #00234d;
-}
-.virtual-guided-two{
     text-align: center;
 }
 .section-two-heading{
     font-size: 35px;
+    text-align: center;
 }
 .section-two-paragraph{
-    color: #808285;
+    color: white;
     font-size: 18px;
     font-weight: 400;
+    margin: 34px 10px;
+    width: 96%;
 }
 .section-two-button{
     cursor: pointer;
-    border: 2px solid rgba(255, 255, 255);
+    border: 2px solid rgb(163 146 146);
     font-size: 15px;
     letter-spacing: 2px;
     line-height:15px;
     color: rgba(255, 255, 255);
     padding: 15px 30px;
     background-color: #00234d;
+    margin-top: 25px;
 }
 .section-three-button{
     cursor: pointer;
-    border: 2px solid rgba(255, 255, 255);
+    border: 2px solid rgb(199 184 184);
     font-size: 15px;
     letter-spacing: 2px;
     line-height:15px;
     color: rgba(255, 255, 255);
-    padding: 15px 30px;
-    background-color: #00234d;
+    padding: 15px 26px;
+    background-color: #02709C;
+    margin-top: 24px;
 }
 .animals{
     text-align: center;
@@ -143,16 +154,17 @@ header{
    border-radius: 25px;
 }
 .about{
-    padding:0 100px;
+    padding:100px;
 }
 .div-4{
     display: flex;
     justify-content: center;
     background-color: #0274be;
 }
-.section-four-heading{
+.section-four-heading-two{
     font-family: 'Six Caps',sans-serif;
     font-size: 23px;
+    padding-top: 22px;
 }
 .couple-image{
     margin: 150px 100px 0 0;
@@ -160,12 +172,13 @@ header{
 .div-5{
     display: flex;
     justify-content: center;
-   
-    background-color: #00234d;
+    background-color: #014faf;
+    padding: 100px;
 }
 .penguin-image{
     width: 570px;
     height: 586px;
+    margin-top: -24px;
 }
 .section-five{
     padding: 50px;
@@ -175,9 +188,8 @@ header{
     margin-top: 24px;
 }
 .shark{
-    margin: 0;
-    padding: 0 500px;
     background-color: #00234d;
+    background-image: url('https://websitedemos.net/aquarium-04/wp-content/uploads/sites/752/2021/01/animals-05-free-img.png');
 }
 footer{
     padding: 125px 0;
@@ -205,4 +217,129 @@ section{
 .nav-image{
     margin-top: 5px;
     margin-left: 10px;
+}
+.tickets-border{
+    border-left: 2px solid #fff;
+}
+.div-1{
+    display: flex;
+}
+.nav-ticket-links{
+    padding: 0 18px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-family: Oswald sans-serif;
+}
+.nav-ticket-links:hover{
+    background-color:#00234D;
+}
+.div-2{
+    display: flex;
+    justify-content: right;
+}
+.header-border{
+    border-bottom: 2px solid #fff;
+    padding-right: 50px;
+}
+.girl{
+    width: 520px;
+    height: 584px;
+}
+.div-3{
+    background-color: #247494;
+}
+.vr-border{
+    border-bottom: 2px solid #fff;
+    margin: 0 210px;
+}
+.section-two-button:hover{
+    border: none;
+}
+.section-three-paragraph{
+    width: 49%;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    align-items: center;
+    margin: 21px 340px;
+}
+.section-three-button:hover{
+    background-color: #00234D;
+    border: none;
+}
+.section-three:hover{
+    opacity: 50%;
+}
+.section-three-icon:hover{
+    background-color: white;
+}
+.section-four-heading-one{
+    font-size: 7rem;
+    font-weight: 400;
+    font-family: 'Six Caps',sans-serif;
+    letter-spacing: 5px;
+    line-height: 1;
+}
+.section-four-paragraph{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 34px 1px;
+    width: 122%;
+    line-height: 31px;
+}
+.section-four-button{
+    cursor: pointer;
+    border: 2px solid rgb(199 184 184);
+    font-size: 15px;
+    letter-spacing: 2px;
+    line-height:15px;
+    color: rgba(255, 255, 255);
+    padding: 15px 22px;
+    background-color: #02709C;
+    margin-top: 24px;
+    margin-left: 6px;
+}
+.section-four-button:hover{
+    background-color: #00234D;
+    border: none;
+}
+.section-six-heading-one{
+    font-size: 35px;
+    text-align: center;
+    padding-top: 160px;
+    padding-bottom: 10px;
+}
+.section-six-heading-two{
+    font-size: 5rem;
+    font-weight: 400;
+    font-family: 'Six Caps',sans-serif;
+    letter-spacing: 13px;
+    line-height: 1;
+    text-align: center;
+}
+.section-six-paragraph{
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 34px 322px;
+    width: 51%;
+    text-align: center;
+    line-height: 30px;
+}
+.section-six-button{
+    cursor: pointer;
+    border: 2px solid rgb(199 184 184);
+    font-size: 15px;
+    letter-spacing: 2px;
+    line-height:15px;
+    color: rgba(255, 255, 255);
+    padding: 15px 22px;
+    background-color: #00234D;
+    margin-top: 24px;
+    margin-left: 582px;
+}
+.section-six-button:hover{
+    border: none;
 }
